@@ -1,0 +1,476 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+
+}
+.top{
+  background-color: rgb(207, 207, 207);
+  padding: 10px;
+}
+.login-button{
+  background-color: white;
+  color: purple;
+  font-weight: bolder;
+  border-radius: 5px;
+  border-color: white;
+  margin: 3px;
+  padding: 3px;
+  font-size: 13px;
+}
+.email{
+  text-decoration: none;
+  color: black;;
+  font-size: 15px;
+}
+.email:hover{
+  color: rgb(243, 189, 89);
+  transition-duration: 0.6s;
+}
+
+/* Navbar */
+.navbar{
+  background-color: white;
+}
+.school-logo{
+  position: relative;
+  z-index: 10;
+  border-radius: 8px;
+  height: auto;
+  width: 250px;
+  margin-bottom: -50px;
+  transition: margin-bottom 0.3s ease;
+}
+@media (max-width: 768px) {
+  .school-logo {
+    margin-bottom: 0;
+  }
+}
+.navbar-custom {
+  background-color: white !important;
+  color: black !important;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link {
+  color: black !important;
+}
+.navLink{
+  font-size: 12px;
+  font-family: Poppins;
+  margin: 10px;
+}
+
+/* Nav3 */
+.nav3{
+  background-color: rgb(249, 198, 104);
+  padding: 10px;
+  height: 40px;
+}
+
+.enquiry-button {
+  position: fixed;
+  right: 0;
+  top: 80%;
+  transform: translateY(-50%) rotate(-90deg);
+  background-color: #ff9800;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  z-index: 18;
+}
+
+
+.carousel-image{
+  width: 100%;
+  display: block;
+  height: 40vw;
+}
+/* .carousel-caption{
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  color: white; 
+} */
+
+
+.side-img{
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+}
+.section3{
+  height: 500px;
+  width: 100%;
+}
+.upside{
+  height: auto;
+  width: 80vw;
+  background-color: #03438f;
+  color: white;
+  position: relative;
+  /* top: -300px; */
+  padding: 30px;
+}
+
+/* @media (max-width: 768px) {
+  .upside {
+    top:-500px;
+    height: 500px;
+    width: 100%;
+  }
+} */
+.login-logo{
+  border-radius: 7px;
+  margin: 30px;
+  height: 130px;
+  width: 370px;
+}
+.login{
+  height: 400px;
+  width: 370px;
+  border-radius: 14px !important;
+}
+.login-btn{
+  width: 300px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+/* Above Footer */
+.section5{
+  width: 100%;
+  height: 50vh;
+  opacity: 0.3;
+}
+
+.footer{
+  background-color: #030749;
+  overflow-x: hidden;
+  padding: 20px;
+}
+.footer-heading{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0px 10px 0px;
+}
+.footer-list{
+  color: white;
+  text-decoration: none;
+}
+.footer-list:hover{
+  color:#2932dd;
+  transition: 2s
+}
+.arrow-list {
+  list-style: none;
+  padding: 0;
+}
+
+.arrow-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 5px;
+
+}
+.arrow-list li::before {
+  content: '→'; 
+  position: absolute;
+  left: 0;
+  color: #b6c9ff;
+  margin-left: 7px;
+}
+.enquiry-btn{
+  background-color: #ff9800;
+  color: white;
+  border: 1px solid orange;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  padding: 2px;
+  height:35px;
+  width: 130px;
+}
+.enquiry-form{
+  background-color: #f3f5f8;
+  padding: 20px;
+}
+.inputs{
+  border: 1px solid rgb(243, 242, 242);
+  padding: 4px;
+  font-size: 18px;
+  margin-left: 7px;
+  margin-right: 6x;
+}
+.facility-img{
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+}
+.description{
+  padding: 30px;
+  text-align: justify;
+}
+
+.bg-text{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  .tick-list {
+    list-style: none;
+  }
+  
+  .tick-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+.tick-list li::before {
+    content: '✔';
+    font-family: Flaticon;
+    color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+  /* Contact */
+.main-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+  /* Login As */
+.login-as{
+  height: 200px;
+  margin: 30px;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-logo{
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+
+/* sidebar */
+.sidebar{
+  background-color: black;
+  color: white;
+  height: 90vh;
+  transition: all 0.2s;
+  position: fixed;
+  margin-top: 60px;
+}
+.link{
+  display: flex;
+  color: white;
+  padding: 10px 15px;
+  gap:15px;
+  transition: all  0.5s;
+  text-decoration: none;
+}
+.link:hover{
+  background-color: rgb(184, 212, 230);
+  color: black;
+  transition: all 0.5s;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.top-nav{
+  display: flex;
+  align-items: center; 
+  height: 60px; 
+  background-color: #083344;
+  z-index: 10;
+  position:fixed;
+  width: 100%;
+}
+.top-text{
+  color: white;
+  margin: 0; 
+}
+
+.content-container {
+  flex-grow: 1;
+  padding: 20px;
+}
+.content-paper {
+  padding: 20px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+@media (max-width: 786px){
+  .content-paper{
+    margin-left: 20px;
+  }
+}
+
+.add-head{
+  background-color: #000458;
+  color: #ffffff;
+  margin: 50px;
+  margin-left: 95px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+}
+
+/* Student Dashborad */
+.profile{
+  padding: 10px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.profile img{
+  width: 8vw;
+  height: 14vh;
+}
+.profile p{
+  margin: 3px 0;
+}
+.fees{
+  background-color: rgb(86, 185, 86)!important;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+  width:320px;
+  color: white!important;
+  cursor: pointer;
+}
+.transport{
+  background-color: rgb(206, 226, 255)!important;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 300px;
+  cursor: pointer;
+  color: black;
+}
+.transport a{
+  color: black;
+}
+
+/* Admin Dashboard */
+.adminbox1{
+  background-color: #ddd9d9!important;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  color: black;
+  text-align: center;
+}
+.adminbox2{
+  background-color: #fcfbd9!important;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  color: black;
+  text-align: center;
+}
+
+.notice{
+  border:1px solid rgb(199, 199, 199);
+  background-color: white;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 10px;
+}
+.notice h6{
+  cursor: pointer;
+}
+
+.resultBox {
+  width: 100%;
+  margin: 10px 0;
+  border-collapse: collapse;
+}
+
+.resultBox th, .resultBox td {
+  border: 1px solid #1a3057e0;
+  padding: 0.5rem;
+}
+
+.resultBox thead th {
+  background: rgba(35, 102, 131, 0.773);
+}
+
+.resultBox tbody tr:nth-child(odd) {
+  background-color: #fffeff; 
+}
+
+.resultBox tbody tr:nth-child(even) {
+  background-color: #ffffff; 
+}
+
+.libraryTable{
+  width: 100%;
+  margin-top: 20px;
+}
+.libraryTable th, .libraryTable td{
+  border: 1px solid black;
+  padding: 0.2rem;
+}
+.feesTable{
+  width: 100%;
+}
+.feesTable th, .feesTable td{
+  border: 1px solid black;
+  padding: 0.2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.pay{
+  margin-top: 10px;
+}
+/* Faculty Library */
+
+.facultyLibrary{
+  width: 100%;
+  margin-top: 20px;
+}
+.facultyLibrary th, .facultyLibrary td{
+  padding: 0.2rem;
+}
+
+
+.label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+.lib-input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
