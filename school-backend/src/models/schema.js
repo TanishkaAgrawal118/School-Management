@@ -38,7 +38,7 @@ const adminSchema = new mongoose.Schema({
   email: { type: String, required: true },
   password: { type: String, required: true },
   role: { type: String, default: 'admin' },
-  schoolName: { type: String, unique: true, required: true },
+  schoolName: { type: String, unique: true },
 });
 
 const studentSchema = new mongoose.Schema({

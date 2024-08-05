@@ -9,7 +9,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json())
-
+app.use("/test", (req,res) => {
+    res.send("tanishka");
+})
 app.use(schoolRouter);
 
 app.listen(process.env.PORT, ()=>{

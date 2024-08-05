@@ -14,6 +14,7 @@ const Top = () => {
   const handleClick = () =>{
     navigate("/login-as");
   }
+
   return (
     <>
       <div className="top">
@@ -39,9 +40,15 @@ const Top = () => {
                 />
                 ERP Login
               </button>
-              <FaFacebook style={{ margin: "6px" }} />
-              <FaTwitter style={{ margin: "6px" }} />
-              <FaInstagram style={{ margin: "6px" }} />
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebook style={{ margin: "6px", cursor: "pointer" }} />
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaTwitter style={{ margin: "6px", cursor: "pointer" }} />
+              </a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <FaInstagram style={{ margin: "6px", cursor: "pointer" }} />
+              </a>
             </Col>
           </Row>
         </Container>
