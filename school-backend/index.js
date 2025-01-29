@@ -8,7 +8,7 @@ import multer from "multer";
 const app = express();
 
 const corsOptions = {
-  origin: ["https://school-management-e99e.vercel.app"],  
+  origin: ["https://school-management-e99e.vercel.app/"],  
   methods: ["GET", "POST", "PUT", "DELETE"],  
   credentials: true
 };
